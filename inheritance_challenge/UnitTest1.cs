@@ -91,6 +91,7 @@ namespace inheritance_challenge
     {
         public Motorcycle(string make, string model) : base(make, model)
         {
+            NumOfTires = 2;
         }
     }
 
